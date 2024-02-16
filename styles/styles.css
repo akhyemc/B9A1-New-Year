@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+/* header style */
+.header{
+    background: linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+    position: absolute;
+    width: 1300px;
+    height: 600px;
+    left: 140px;
+    right: -140px;
+    top: 50px;
+    bottom: -50px;
+    border-radius: 16px;
+}
+/* banner style */
+.banner{
+    /* position: absolute;
+    width: 632px;
+    height: 246px;
+    left: 484px;
+    right: -484px;
+    top: 227px;
+    bottom: -227px; */
+    align-items: center;
+    
+}
+.banner-title1{
+    position: absolute;
+    width: 259px;
+    height: 40px;
+    left: 490px;
+    right: -297px;
+    top: 227px;
+    bottom: -21px;
+    color: #ffffff;
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner-title{
+    position: absolute;
+    width: 632px;
+    height: 190px;
+    left: 300px;
+    right: -484px;
+    top: 283px;
+    bottom: -227px;
+    color:#ffffff;
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
