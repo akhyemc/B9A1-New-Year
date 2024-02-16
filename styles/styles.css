@@ -56,7 +56,7 @@
 .holiday-deals{
     position: absolute;
     width: 803px;
-    height: 651px;
+    height: 820px;
     left: 399px;
     right: -399px;
     top: 750px;
@@ -101,12 +101,12 @@
     height: 600px;
     left: 140px;
     top: 1750px;
-    
+    bottom: -282.67%;
 }
 
 .p-title{
     color: #ffffff;
-    font-family:" Merriweather", serif;
+    font-family:"Merriweather", serif;
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
@@ -116,7 +116,7 @@
 
 .p-description{
     color: #ffffffcc;
-    font-family:" Merriweather", serif;
+    font-family:"Merriweather", serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -125,7 +125,7 @@
 }
 .join{
     color: #ffffff;
-    font-family:" Merriweather", serif;
+    font-family:"Merriweather", serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -146,6 +146,70 @@
     top: 10%;
 }
 
+/* Coming soon style */
+.offer-coming-soon{
+    position: absolute;
+    width: 1320px;
+    height: 500px;
+    left: 140px;
+    right: 140px;
+    top: 2400px;  
+    bottom: 3854px; 
+    background-color: #efdcfb26;
+}
+.offer-coming{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.offer-hs{
+    color: #ff0000;
+    font-family:"Merriweather", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    padding-top: 80px;
+}
+
+.offer-hl{
+    color: #070211;
+    font-family:"Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.offer-p{
+    color: #07021199;
+    font-family:"Merriweather", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 0px;
+}
+.img-off{
+    box-sizing: border-box;
+    border: 15px solid #ff0000;
+    padding: 20px;
+    border-radius: 50%;
+
+}
+.h-off{
+    color: #ff0000;
+    font-family:"Merriweather", serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    padding-top: 70px;
+    padding-right: 200px;
+}
+.p-best-off{
+    color: #07021199;
+    font-family:"Merriweather", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 5px 0 30px 0;
+}
 /* Portfolio style */
 
 .t-portfolio{
@@ -154,7 +218,8 @@
     height: 1163px;
     left: 140px;
     right: -140px;
-    top: 3400.07px;
+    top: 3000px;
+    bottom: -4707px;
 }
 .lh-portfolio{
     color: #ff0000;
