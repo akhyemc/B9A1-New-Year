@@ -147,7 +147,7 @@
 }
 
 /* Coming soon style */
-.offer-coming-soon{
+/* .offer-coming-soon{
     position: absolute;
     width: 1320px;
     height: 500px;
@@ -156,11 +156,19 @@
     top: 2400px;  
     bottom: 3854px; 
     background-color: #efdcfb26;
-}
+} */
 .offer-coming{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    position: absolute;
+    width: 1320px;
+    height: 500px;
+    left: 140px;
+    right: 140px;
+    top: 2400px;  
+    bottom: 3854px; 
+    background-color: #efdcfb26;
 }
 .offer-hs{
     color: #ff0000;
