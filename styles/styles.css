@@ -1,6 +1,7 @@
 *{
-    margin: 0;
+ margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* header style */
 .header{
     background: linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
@@ -31,7 +32,6 @@
     font-size: 32px;
     font-weight: 400;
     line-height: 40px;
-    letter-spacing: 0%;
     text-align: center;
 }
 .banner-title{
@@ -47,7 +47,6 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
@@ -56,7 +55,7 @@
 
 .holiday-deals{
     position: absolute;
-    width: 802.9px;
+    width: 803px;
     height: 651px;
     left: 399px;
     right: -399px;
@@ -65,20 +64,18 @@
 }
 .offer{
     color: #ff0000;
-    font-family: "Inter", serif;
+    font-family: "Merriweather", serif;
     font-size: 88px;
     font-weight: 700;
     line-height: 107px;
-    letter-spacing: 0%;
     text-align: center;
 }
 .h-deals{
     color: #ff0000;
-    font-family: "Inter", serif;
+    font-family: "Merriweather", serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
-    letter-spacing: 0%;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -86,10 +83,111 @@
 
 .categories{
     color: #070211;
-    font-family: "Inter", serif;
+    font-family: "Merriweather", serif;
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
     text-align: center;
     padding-bottom: 50px;
+}
+
+/* midnight party centre */
+
+.m-party{
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    border-radius: 16px;
+    position: absolute;
+    width: 1320px;
+    height: 600px;
+    left: 140px;
+    top: 1750px;
+    
+}
+
+.p-title{
+    color: #ffffff;
+    font-family:" Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    padding: 120px 0px 10px 90px;
+}
+
+.p-description{
+    color: #ffffffcc;
+    font-family:" Merriweather", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 90px;
+    padding-bottom: 20px;
+}
+.join{
+    color: #ffffff;
+    font-family:" Merriweather", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    background: transparent;
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    left: 90px;
+    border: 0;
+}
+.p-img{
+    position: absolute;
+    width: 350px;
+    height: 465px;
+    left: 70%;
+    top: 10%;
+}
+
+/* Portfolio style */
+
+.t-portfolio{
+    position: absolute;
+    width: 1320px;
+    height: 1163px;
+    left: 140px;
+    right: -140px;
+    top: 3400.07px;
+}
+.lh-portfolio{
+    color: #ff0000;
+    font-family:" Merriweather", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.h-portfolio{
+    font-family:" Merriweather", serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.p-portfolio{
+    color: rgba(7, 2, 17, 0.6);
+    font-family:" Merriweather", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 45px;
+}
+
+.portfolio-img{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 15px;
+}
+
+.portfolio-img >img:hover{
+    border: 5px solid #a12121;
+    transition: step-start;
+    transition-duration: 1s;
 }
