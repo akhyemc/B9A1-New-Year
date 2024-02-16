@@ -15,23 +15,16 @@
 }
 /* banner style */
 .banner{
-    /* position: absolute;
-    width: 632px;
-    height: 246px;
-    left: 484px;
-    right: -484px;
-    top: 227px;
-    bottom: -227px; */
     align-items: center;
-    
 }
+
 .banner-title1{
     position: absolute;
     width: 259px;
     height: 40px;
     left: 490px;
     right: -297px;
-    top: 227px;
+    top: 207px;
     bottom: -21px;
     color: #ffffff;
     font-family: "Merriweather", serif;
@@ -47,7 +40,7 @@
     height: 190px;
     left: 300px;
     right: -484px;
-    top: 283px;
+    top: 253px;
     bottom: -227px;
     color:#ffffff;
     font-family: "Merriweather", serif;
@@ -56,4 +49,47 @@
     line-height: 95px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+/* 65% offer section */
+
+
+.holiday-deals{
+    position: absolute;
+    width: 802.9px;
+    height: 651px;
+    left: 399px;
+    right: -399px;
+    top: 750px;
+    bottom: -770px;
+}
+.offer{
+    color: #ff0000;
+    font-family: "Inter", serif;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.h-deals{
+    color: #ff0000;
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.categories{
+    color: #070211;
+    font-family: "Inter", serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    padding-bottom: 50px;
 }
