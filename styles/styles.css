@@ -256,6 +256,7 @@
 
 .portfolio-img >img:hover{
     border: 5px solid #a12121;
+    border-radius: 16px;
     transition: step-start;
     transition-duration: 1s;
 }
