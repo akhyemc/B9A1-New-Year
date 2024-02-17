@@ -391,7 +391,13 @@
     padding-top: 190px;
     padding-left: 80px;
 }
-
+/* .contact>hr{
+    transform: rotate(90deg);
+    padding: 0 0 600px 0;
+} */
+/* .icons{
+    padding: 200px 200px 0 0;
+} */
 .icons{
     width: 80px;
     height: 80px;
@@ -407,8 +413,19 @@
     height: 40px;
 }
 .contact-p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
     padding: 80px 100px 0 0;
 }
+.contact-p1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
 .contact-p3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
     padding: 190px 90px 0 0;
 }
